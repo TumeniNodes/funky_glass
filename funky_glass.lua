@@ -37,7 +37,7 @@ minetest.register_node("funky_glass:asgcol", {
 	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	drop = {1},
 	tiles = {{
-			name = "default_obsidian_glass.png^glass_flashy.png", 
+			name = "glass_flashy.png","default_obsidian_glass.png", 
 			animation = {
 				type = "vertical_frames",
 				aspect_w = 16,
